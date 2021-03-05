@@ -29,6 +29,9 @@ services:
         max-file: "10"
     container_name: mongo
     image: mongo:4.4.1-bionic
+    volumes:
+      # - ./docker/mongo/etc:/etc/mongo
+      - ./docker/mongo/data:/data/db
     ports:
       - '37017:27017'
     expose:
