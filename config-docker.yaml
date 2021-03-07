@@ -12,9 +12,9 @@ redis:
 exchanges:
     BITMEX:
         l2_book:
-            symbols: [XBTUSD]
+            symbols: [BTC-USD]
             max_depth: 10
-        trades: [XBTUSD]
+        trades: [BTC-USD]
     COINBASE:
         l3_book:
             symbols: [BTC-USD, ETH-USD]
